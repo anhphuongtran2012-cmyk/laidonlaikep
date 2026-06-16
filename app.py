@@ -1,17 +1,8 @@
 import streamlit as st
-
+st.image("FFF0FBDA-00D2-43F5-96FB-EDE4B3EFE576.png")
 # Tiêu đề ứng dụng
-st.title(" Ứng dụng tính tiền gửi tiết kiệm_Phương Chèn ảnh của bạn bằng đường link URL (Không cần upload file ảnh)
-# BẠN HÃY THAY ĐƯỜNG LINK TRONG DẤU NGOẶC KÉP DƯỚI ĐÂY THÀNH LINK ẢNH THỰC TẾ CỦA BẠN
-URL_ANH_CUA_TOI = "
+st.title("🐨 Ứng dụng tính tiền gửi tiết kiệm✌️_ Phương Anh")
 
-“
-
-st.image(
-    URL_ANH_CUA_TOI, 
-    caption="Hình ảnh minh họa", 
-    use_container_width=True
-)
 # Nhập dữ liệu
 C = st.number_input(
     "Nhập số tiền khách hàng gửi tiết kiệm (triệu đồng)",
@@ -51,4 +42,4 @@ if st.button("Tính toán"):
 
     st.write(
         f"📌 Số tiền khách hàng nhận được theo lãi kép: **{Bn:,.2f} triệu đồng**"
-    )
+  )
